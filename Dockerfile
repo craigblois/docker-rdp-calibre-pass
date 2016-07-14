@@ -2,7 +2,7 @@
 # Builds a docker gui image
 FROM hurricane/dockergui:xvnc
 
-MAINTAINER aptalca
+MAINTAINER craigblois
 
 #########################################
 ##        ENVIRONMENTAL CONFIG         ##
