@@ -39,3 +39,8 @@ If you would like to change the library location you need to do a couple of thin
 ####Url Prefix for reverse proxy:
 - Add an environment variable (URLPREFIX) to docker run to specify the url prefix for the webserver. Example: -e URLPREFIX="/calibre"
 - To access the webserver, go to http://SERVERIP:YYYY/calibre
+
+####Add username and/or password to Calibre Server
+- Add an environment variable (USERNAME) to docker run to specify the username to log into the webserver. Example -e USERNAME="myusername" (Default is "calibre")
+- Add an environment variable (PASSWORD) to docker run to specify the password to log into the webserver. Example -e PASSWORD="secret" (Default is blank)
+- When accessing the webserver, enter the username and password specified.
